@@ -24,7 +24,6 @@ const MainContent = () => {
 
 
             <SubHeader label='X company released a short report on $XYZ, High IV option sales opps' />
-
             <SubHeader label='$XYZ just announced an acquisition of $ABC at $X. This is an arbitrage opportunity, with the max gain being %X if the deal closes, but the possible risk is %Y  if the deal fails.' />
             <SubHeader label='$XYZ just announced an acquisition of $ABC at $X. This is an arbitrage opportunity, with the max gain being %X if the deal closes, but the possible risk is %Y  if the deal fails.' />
             <SubHeader label='$XYZ just announced an acquisition of $ABC at $X. This is an arbitrage opportunity, with the max gain being %X if the deal closes, but the possible risk is %Y  if the deal fails.' />
