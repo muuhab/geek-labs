@@ -6,7 +6,7 @@ import SubHeader from './SubHeader'
 
 const MainContent = () => {
     return (
-        <div className="bg-main-light rounded-[15px] w-[1335px]  pb-[18px] flex flex-col items-center justify-between pt-[22px] pl-[13px] pr-[17px] gap-[9px]">
+        <div className="bg-main-light rounded-[15px] w-[1335px] flex-grow pb-[18px] flex flex-col items-center justify-between pt-[22px] pl-[13px] pr-[17px] gap-[9px]">
 
             <div className="flex flex-col w-full   pt-[17px] pb-[24px] 2xl:gap-[26px] xl:gap-[20px] gap-[18px] 2xl:px-[43px] xl:px-[38px] md:px-[30px] px-[15px] border-[0.6px] border-border grad rounded-xl">
                 <div className="flex md:flex-row flex-col items-center justify-between font-sans text-var-20 ">

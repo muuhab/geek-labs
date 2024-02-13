@@ -10,7 +10,7 @@ const Homepage = () => {
             <div className='xl:mt-[18px] lg:mt-[15px] mt-[12px] '>
                 <Header />
             </div>
-            <div className="flex  justify-start flex-grow  bg-main mt-[10px] pb-[28px] md:pl-[63px] pl-[20px] pt-[49px] lg:gap-[45px] md:gap-[27px] gap-[20px] ">
+            <div className="flex  justify-start flex-grow  bg-main mt-[10px] pb-[28px] md:pl-[63px] pl-[20px] md:pr-[83px] pr-[40px] pt-[49px] lg:gap-[45px] md:gap-[27px] gap-[20px]  ">
                 <Sidebar />
                 <MainContent />
             </div>

@@ -4,7 +4,7 @@ import RadioOption from './Inputs/RadioOption'
 
 const Sidebar = () => {
     return (
-        <div className='bg-main-light rounded-[15px] lg:w-[361px] md:w-[230px] w-[170px]  pt-[23px] pl-[27px] pr-[16px] pb-[25px] flex flex-col items-start'>
+        <div className='bg-main-light rounded-[15px] 3xl:w-3/12 lg:w-[361px] md:w-[230px] w-[170px]  pt-[23px] pl-[27px] pr-[16px] pb-[25px] flex flex-col items-start'>
             <p className=' 2xl:text-[32px] xl:text-[29px] lg:text-[24px] text-[22px] font-inter text-white font-bold text-center self-center'>Filters</p>
             <div className="flex flex-col lg:gap-[22px] gap-[16px] w-full">
                 <SelectInput label='Industry' subLabel='Choose something.' />
