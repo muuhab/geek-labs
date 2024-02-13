@@ -14,9 +14,9 @@ const TextInput: FC<TextInputProps> = ({
 }) => {
     return (
         <div className='flex flex-col gap-2'>
-            <label htmlFor={label.toLocaleLowerCase()} className="text-[14px] font-medium leading-[20px] text-white ">{label}</label>
+            <label htmlFor={label.toLocaleLowerCase()} className=" font-medium  text-white text-var-14 ">{label}</label>
             <input type={type}
-                placeholder={placeholder} className="rounded-[8px] px-[12px] text-[14px] leading-[20px] placeholder:text-[#414141] border border-[#D6D6D6] w-[318px] h-[44px] outline-none bg-transparent   " id={label.toLocaleLowerCase()} />
+                placeholder={placeholder} className="rounded-[8px] px-[12px] text-var-14 placeholder:text-[#414141] border border-[#D6D6D6] input-dim outline-none bg-transparent   " id={label.toLocaleLowerCase()} />
 
 
         </div>
